@@ -10,7 +10,15 @@ public static int[] multiply(int[] array){
 }
 
     public static void main(String[] args) {
-        int[] array ={2,3,4,1};
+    Scanner sc  = new Scanner(System.in);
+  
+        System.out.println("enter the numbers of elements ");
+        int j = sc.nextInt();
+              int [] array = new int[j];
+           System.out.println("enter the number of arrays  ");
+        for (int i= 0; i < j ; i++) {
+        array[i] = sc.nextInt();
+        }
             int [] result = multiply(array);
             System.out.println(Arrays.toString(result));
         
