@@ -5,9 +5,9 @@ public class BestTimeToBuyAndSellStock {
 
         for (int price : prices) {
             if (price < minPrice) {
-                minPrice = price; // Found a cheaper day to buy
+                minPrice = price; 
             } else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice; // Found a higher profit
+                maxProfit = price - minPrice; 
             }
         }
 
