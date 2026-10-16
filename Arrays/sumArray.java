@@ -1,4 +1,4 @@
-class Solution {
+class sumArray{
     public static int[] runningSum(int[] nums) {
         int [] narray = new int[nums.length];
         int sum =0;
